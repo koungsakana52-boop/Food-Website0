@@ -232,8 +232,10 @@ const translations = {
     wharmenup:"Discover our unique features that make cooking smooth and delicious.",
 
     gotocontactas:"Go to About",
-    gotoabout:"Go to Menu",
-    gotocontact:"Go to Contact",
+    gotoabout: "Go to About <i class='fa-solid fa-arrow-right'></i>",
+    youare :"Go to Contact <i class='fa-solid fa-arrow-right'></i>",
+    xohead:"our Contact",
+    xotext:"Contact <span>With  Us</span><br/> now.",
   },
   km: {
     logo: "ភោជនីយដ្ឋានខ្មែរ",
@@ -408,8 +410,10 @@ const translations = {
     wharmenup:"ស្វែងយល់ពីលក្ខណៈពិសេសតែមួយគត់របស់យើង ដែលធ្វើឱ្យដំណើរចម្អិនអាហាររលូន និង​ ឆ្ងុយឆ្ងាញ់។",
 
     gotocontactas:"ទៅកាន់​ អំពីយើង",
-    gotoabout:"ទៅកាន់ មីនុយ",
-    gotocontact:"ទៅកាន់ ទំនាក់ទំនង",
+    gotoabout:"ទៅកាន់ មីនុយ <i class='fa-solid fa-arrow-right'></i>",
+    youare:"ទៅកាន់ ទំនាក់ទំនង <i class='fa-solid fa-arrow-right'></i>",
+    xohead:"អំពីរទំនាក់ទំនង",
+    xotext:"ទំនាក់ទំនង<span> មកកាន់ពួកយើង</span><br/>អីឡូវនេះ",
   }
 };
 
@@ -418,7 +422,7 @@ function applyLanguage() {
   Object.keys(t).forEach(key => {
     const el = document.getElementById(key);
     if (el) {
-      if (["mainHeadingh", "menuTitle", "day", "scc", "emailoo", "eooo", "contactus","menuus","ooopu","ourstory"].includes(key)) {
+      if (["mainHeadingh", "menuTitle", "day", "scc", "emailoo", "eooo", "contactus","menuus","ooopu","ourstory","gotoabout","youare","xotext"].includes(key)) {
         el.innerHTML = t[key];
       } else {
         el.textContent = t[key];
