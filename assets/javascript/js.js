@@ -232,7 +232,7 @@ const translations = {
     wharmenup:"Discover our unique features that make cooking smooth and delicious.",
 
     gotocontactas:"Go to About",
-    gotoabout: "Go to About <i class='fa-solid fa-arrow-right'></i>",
+    gotoabout: "Go to Menu <i class='fa-solid fa-arrow-right'></i>",
     youare :"Go to Contact <i class='fa-solid fa-arrow-right'></i>",
     xohead:"our Contact",
     xotext:"Contact <span>With  Us</span><br/> now.",
