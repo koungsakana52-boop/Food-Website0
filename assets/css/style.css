@@ -1738,6 +1738,10 @@ body.khmer {
       position: relative;
     }
 
+    .promo-banner p{
+      color: var(--colorcontact);
+    }
+
     .promo-banner::after {
       content: "";
       position: absolute;
