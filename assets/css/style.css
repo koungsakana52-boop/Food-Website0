@@ -1818,7 +1818,7 @@ body.khmer {
       /* Replace with your image */
       padding: 100px 20px;
       text-align: center;
-      color: #fff;
+      color: var(--textho);
       position: relative;
     }
 
