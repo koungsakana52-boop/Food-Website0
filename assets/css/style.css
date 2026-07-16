@@ -90,6 +90,10 @@ body.khmer {
   font-family: 'Hanuman', 'Noto Sans Khmer', serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 /*conice*/
 .promo-wrapper{
     width:100%;
