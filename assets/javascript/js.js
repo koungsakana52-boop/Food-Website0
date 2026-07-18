@@ -731,7 +731,7 @@ function renderMenu() {
 menuGrid.innerHTML =
   filtered.map((item, index) => `
     <div 
-      class="food-card scroll-animate"
+      class="food-card "
       style="--delay:${index * 0.1}s"
     >
       <div class="image-wrapper">
