@@ -413,7 +413,7 @@ const translations = {
     gotoabout:"ទៅកាន់ មីនុយ <i class='fa-solid fa-arrow-right'></i>",
     youare:"ទៅកាន់ ទំនាក់ទំនង <i class='fa-solid fa-arrow-right'></i>",
     xohead:"អំពីទំនាក់ទំនង",
-    xotext:"ទំនាក់ទំនង<span> មកកាន់ពួកយើង</span><br/>អីឡូវនេះ",
+    xotext:"ទំនាក់ទំនង<span> មកកាន់ពួកយើង</span><br/>ឥឡូវនេះ",
   }
 };
 
